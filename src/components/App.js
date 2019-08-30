@@ -1,8 +1,6 @@
 import React from 'react';
-import AllCharacters from '../containers/AllCharacters';
-//TODO: import container component
+import SimpsonsQuote from '../containers/facts/SimpsonsQuote';
 
 export default function App() {
-    return <AllCharacters />;
+    return <SimpsonsQuote />;
 }
-  
